@@ -1,0 +1,11 @@
+mediapipe==1.2.3
+scikit-learn>=1.8,<2
+numpy
+pandas
+scipy
+joblib
+matplotlib
+seaborn
+pyyaml
+pyarrow
+sounddevice

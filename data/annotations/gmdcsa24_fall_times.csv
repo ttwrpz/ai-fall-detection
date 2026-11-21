@@ -1,0 +1,80 @@
+clip_id,video,fall_start_s,fall_end_s,description
+gmdcsa24-s1-fall-01,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/01.mp4,3.044,4.6,Falling from sitting on the chair to the ground. Left side Fall. Full body not visible.
+gmdcsa24-s1-fall-02,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/02.mp4,1.618,3.1,Falling from sitting on the chair to the ground. Left side Fall. Full body not visible.
+gmdcsa24-s1-fall-03,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/03.mp4,2.153,3.566,Falling from sitting on the chair to the ground. Left side fall.
+gmdcsa24-s1-fall-04,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/04.mp4,2.141,3.534,Falling from sitting on the chair to the ground. Right side fall.
+gmdcsa24-s1-fall-05,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/05.mp4,1.683,3.333,Walking to falling. Right side fall.
+gmdcsa24-s1-fall-06,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/06.mp4,2.191,4.315,Walking to falling. Right side fall.
+gmdcsa24-s1-fall-07,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/07.mp4,0.909,2.56,Walking to falling. Right side fall.
+gmdcsa24-s1-fall-08,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/08.mp4,0.675,2.362,Walking to falling. Left side fall.
+gmdcsa24-s1-fall-09,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/09.mp4,0.479,2.532,Standing position to falling. Forward Fall. Full body (head) not visible.
+gmdcsa24-s1-fall-10,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/10.mp4,0.642,2.299,Standing position to falling. Forward Fall. Full body (right eye) not visible.
+gmdcsa24-s1-fall-11,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/11.mp4,0.943,3.133,Standing position to falling. Backward Fall.
+gmdcsa24-s1-fall-12,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/12.mp4,1.845,3.451,Standing position to falling. Backward Fall.
+gmdcsa24-s1-fall-13,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/13.mp4,0.169,2.026,Standing position to falling. Backward fall. Full body (head) is not visible.
+gmdcsa24-s1-fall-14,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/14.mp4,0.101,2.023,Standing position to falling. Backward fall. Full body (both ankles) is not visible.
+gmdcsa24-s1-fall-15,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/15.mp4,1.045,3.169,Sitting on the chair (side view) to right side fall.
+gmdcsa24-s1-fall-16,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 1/Fall/16.mp4,1.853,4.076,Sitting on the chair (side view) to the left side fall.
+gmdcsa24-s2-fall-01,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/01.mp4,1.743,3.519,Right side fall on the ground.
+gmdcsa24-s2-fall-02,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/02.mp4,2.816,4.693,Right side fall on the ground after walking.
+gmdcsa24-s2-fall-03,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/03.mp4,0.436,1.006,Forward fall on the bed.
+gmdcsa24-s2-fall-04,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/04.mp4,3.113,6.293,Seeing outside the window then backward fall.
+gmdcsa24-s2-fall-05,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/05.mp4,1.61,3.757,Left side fall (face hidden by hand).
+gmdcsa24-s2-fall-06,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/06.mp4,2.076,4.052,Walking while seeing the mobile phone then fall backward (left hand not fully in the frame).
+gmdcsa24-s2-fall-07,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/07.mp4,1.878,3.488,Falling (forward) after trying to pick the bottle from the ground.
+gmdcsa24-s2-fall-08,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/08.mp4,2.546,4.59,Reading a newspaper in the sitting position on the ground then falling backward.
+gmdcsa24-s2-fall-09,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/09.mp4,1.911,4.661,Falling backward after walking.
+gmdcsa24-s2-fall-10,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/10.mp4,2.134,4.202,Right side fall then backward.
+gmdcsa24-s2-fall-11,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/11.mp4,5.596,7.662,Falling from bed to ground.
+gmdcsa24-s2-fall-12,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/12.mp4,5.995,9.126,Drinking water from the water bottle then falling backward.
+gmdcsa24-s2-fall-13,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/13.mp4,2.074,5.017,Falling backward (side view).
+gmdcsa24-s2-fall-14,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/14.mp4,3.4,5.867,Falling backward on the bed.
+gmdcsa24-s2-fall-15,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/15.mp4,7.274,9.352,Writing while sitting on the bed; then falling on the ground.
+gmdcsa24-s2-fall-16,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/16.mp4,0.803,2.611,Walking then falling forward.
+gmdcsa24-s2-fall-17,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/17.mp4,2.545,3.952,Walking then falling forward.
+gmdcsa24-s2-fall-18,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/18.mp4,9.645,11.554,Picking a water bottle from the ground and drinking water from it then falling forward on the ground.
+gmdcsa24-s2-fall-19,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/19.mp4,7.811,10.124,Eating in standing position then falling forward.
+gmdcsa24-s2-fall-20,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/20.mp4,7.303,9.783,Eating in standing position then falling forward.
+gmdcsa24-s2-fall-21,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/21.mp4,6.036,8.115,Standing then falling sideways.
+gmdcsa24-s2-fall-22,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/22.mp4,1.342,3.154,Walking then falling forward.
+gmdcsa24-s2-fall-23,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/23.mp4,3.451,5.193,Standing then falling sideways.
+gmdcsa24-s2-fall-24,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/24.mp4,3.518,4.926,Standing from the bed and then falling sideways on the ground.
+gmdcsa24-s2-fall-25,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 2/Fall/25.mp4,3.046,4.854,Standing then falling backward on the ground.
+gmdcsa24-s3-fall-01,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/01.mp4,0.067,1.871,falling forward.
+gmdcsa24-s3-fall-02,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/02.mp4,2.611,4.252,Falling on the bed (forward).
+gmdcsa24-s3-fall-03,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/03.mp4,1.241,3.79,Falling backward on the floor.
+gmdcsa24-s3-fall-04,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/04.mp4,1.44,2.746,Walking and then falling backward on the floor.
+gmdcsa24-s3-fall-05,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/05.mp4,3.618,5.259,Falling slowly from standing position to the floor.
+gmdcsa24-s3-fall-06,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/06.mp4,0.0,2.342,Falling (backward) on the floor from the sitting position.
+gmdcsa24-s3-fall-07,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/07.mp4,1.141,3.657,Falling on the floor from the standing position.
+gmdcsa24-s3-fall-08,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/08.mp4,0.068,2.589,Falling on the right side onto the floor from a standing position.
+gmdcsa24-s3-fall-09,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/09.mp4,3.346,5.354,Reading the book while sitting on the ground; then falling backward.
+gmdcsa24-s3-fall-10,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/10.mp4,1.774,2.946,Falling forward on the bed.
+gmdcsa24-s3-fall-11,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/11.mp4,4.858,7.069,Eating in standing position then falling forward.
+gmdcsa24-s3-fall-12,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/12.mp4,1.743,4.256,Falling backward from the bed.
+gmdcsa24-s3-fall-13,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/13.mp4,1.271,3.178,Writing something in a notebook while sitting position on the floor; then falling backward.
+gmdcsa24-s3-fall-14,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/14.mp4,8.148,10.629,Falling backward on the floor while removing the shirt and trying to hang it on the hangar.
+gmdcsa24-s3-fall-15,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/15.mp4,2.06,3.656,Trying to drink water from the water bottle and then falling on the floor.
+gmdcsa24-s3-fall-16,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/16.mp4,1.871,3.341,Walking and then falling left side on the floor.
+gmdcsa24-s3-fall-17,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/17.mp4,1.264,2.793,Full T-shirt (different) & Trouser;Reading newspaper then falling Backward on the bed.
+gmdcsa24-s3-fall-18,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/18.mp4,4.136,6.604,Sitting on the bed; then falling on the floor.
+gmdcsa24-s3-fall-19,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/19.mp4,1.927,4.119,Falling on the floor from the standing position.
+gmdcsa24-s3-fall-20,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/20.mp4,2.258,3.851,Walking then falling forward on the floor.
+gmdcsa24-s3-fall-21,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 3/Fall/21.mp4,5.355,7.563,Drinking in standing position then falling sideways.
+gmdcsa24-s4-fall-01,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/01.mp4,1.742,3.116,Standing on the bed to falling (LS) on the bed.
+gmdcsa24-s4-fall-02,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/02.mp4,1.606,2.977,Falling (LS) from the bed to the floor.
+gmdcsa24-s4-fall-03,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/03.mp4,1.743,2.548,Walking then falling (forward) view 1.
+gmdcsa24-s4-fall-04,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/04.mp4,1.005,2.779,Walking then falling (forward) view 2.
+gmdcsa24-s4-fall-05,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/05.mp4,2.548,3.856,Falling (RS) on the bed from sitting on the bed.
+gmdcsa24-s4-fall-06,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/06.mp4,1.273,4.555,Falling (LS) on the bed from sitting on the bed then falling (RS) to the floor.
+gmdcsa24-s4-fall-07,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/07.mp4,2.381,3.689,Walking then falling (LS) on the floor.
+gmdcsa24-s4-fall-08,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/08.mp4,2.309,3.949,Falling backward on the bed from sitting on the bed.
+gmdcsa24-s4-fall-09,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/09.mp4,2.111,4.122,Falling backward on the bed from sitting on the bed.
+gmdcsa24-s4-fall-10,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/10.mp4,1.608,3.919,Reading a book while sitting on the chair then falling (FW) on the ground.
+gmdcsa24-s4-fall-11,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/11.mp4,1.241,2.65,Walking then falling (FW: only waist to toe is visible after falling).
+gmdcsa24-s4-fall-12,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/12.mp4,1.642,2.983,Falling (FW)to the floor from sitting on the bed.
+gmdcsa24-s4-fall-13,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/13.mp4,0.168,1.743,Falling (sideways) on the bed from sitting on the bed.
+gmdcsa24-s4-fall-14,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/14.mp4,0.568,3.778,Falling (RS) on the bed from sitting on the bed then falling (LS) to the floor.
+gmdcsa24-s4-fall-15,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/15.mp4,1.739,3.478,Falling (FW) on the floor from sitting on the bed.
+gmdcsa24-s4-fall-16,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/16.mp4,3.318,4.961,Walking then falling (FW) on the floor.
+gmdcsa24-s4-fall-17,data/raw/gmdcsa24/files/ekramalam-GMDCSA24-A-Dataset-for-Human-Fall-Detection-in-Videos-d3edb5d/Subject 4/Fall/17.mp4,2.678,4.117,Falling (LS) on the bed from sitting on the bed.

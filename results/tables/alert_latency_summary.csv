@@ -1,0 +1,3 @@
+detector,clips,alerted,no_alert,first_alert_before_fall_start,latency_from_start_s_median,latency_from_start_s_p90,latency_from_start_s_max,latency_from_end_s_median,latency_from_end_s_p90,latency_from_end_s_max,in_sample,note
+rule_tuned,79,66,13,0,1.2265934725221985,2.058144827586206,2.7983521739130426,-0.6500967304964538,-0.1508657595249876,0.46948999999999996,True,"in sample: these fall clips are training data for this detector, so counts are optimistic"
+rf_default,79,78,1,0,1.0025968537414962,1.780760615747965,2.9319664570230604,-0.7706795980462808,-0.1344420855515084,1.2070638095238098,True,"in sample: these fall clips are training data for this detector, so counts are optimistic"

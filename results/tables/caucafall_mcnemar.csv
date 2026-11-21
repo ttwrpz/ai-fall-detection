@@ -1,0 +1,2 @@
+level,first,second,n,both_correct,b_first_only_correct,c_second_only_correct,both_wrong,p_value
+clip,rf_default,rule_tuned,100,72,14,2,12,0.004180908203125

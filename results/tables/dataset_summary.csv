@@ -1,0 +1,4 @@
+dataset,role,clips,fall_clips,non_fall_clips,subjects,fps_min,fps_max,clips_with_windows,windows,fall_windows
+urfd,train,70,30,40,,30.0,30.0,67,445,65
+gmdcsa24,train,160,79,81,4,14.950539568345324,29.925187032418954,160,1722,284
+caucafall,test,100,50,50,10,20.0,20.0,99,1371,173

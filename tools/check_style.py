@@ -7,7 +7,7 @@ from pathlib import Path
 EM_DASH = chr(0x2014)
 ESCAPED_EM_DASH = "\\" + "u2014"
 TEXT_SUFFIXES = {".py", ".md", ".yaml", ".yml", ".txt", ".json", ".ipynb", ".toml", ".cfg"}
-SKIP_DIRS = {".git", ".venv", "venv", "data", "logs", "__pycache__", ".ipynb_checkpoints"}
+SKIP_DIRS = {".git", ".venv", "venv", "data", "logs", "temp", "__pycache__", ".ipynb_checkpoints"}
 ALLOWED_COMMENTS = ("#!", "# noqa", "# type:")
 
 

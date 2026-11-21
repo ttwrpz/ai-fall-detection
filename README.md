@@ -1,108 +1,97 @@
 # AI Fall Detection from Camera
 
-CSC340 Artificial Intelligence group project, SIT KMUTT. A camera based system that labels each 2 second window of video as Fall or Not fall, compared against a rule based method with no AI, with a live webcam demo.
+CSC340 Artificial Intelligence group project, SIT KMUTT.
 
-This repository starts as an empty skeleton. The code is written into `src/` and `scripts/` by the team.
+Each 2 second window of video is classified as Fall or Not fall from MediaPipe body pose. Four AI models are compared with a rule based method (no AI). A live webcam demo raises an alert when someone falls.
+
+## Team
+
+| Student ID | Name | Role |
+| --- | --- | --- |
+| 67130500802 | Kraiwich Jaiton | Modelling |
+| 67130500840 | Theerawat Patthawee | Modelling, GMDCSA-24 annotation |
+| 67130500841 | Benyapon Saisong | Demo, features and baseline |
+| 67130500853 | Napat Chang-Ekwong | Data, features and baseline, modelling, demo, GMDCSA-24 annotation |
+
+## Results
+
+Cross validation on URFD and GMDCSA-24, grouped by clip, window level.
+
+| Detector | Recall | F1 |
+| --- | --- | --- |
+| Random Forest (demo model) | 0.917 | 0.851 |
+| SVM (RBF) | 0.909 | 0.823 |
+| LSTM | 0.895 | 0.737 |
+| Naive Bayes | 0.897 | 0.724 |
+| Rule, tuned (no AI) | 0.745 | 0.786 |
+
+Unseen test on CAUCAFall, run once. Random Forest caught 40 of 50 falls (clip recall 0.800, F1 0.851). The tuned rule caught 31 (recall 0.620, F1 0.705). McNemar p = 0.004.
+
+Every number comes from `results/tables/`. Charts are in `results/figures/`. The full write up is in `REPORT.md`.
 
 ## Setup
 
-Python 3.12 on every laptop.
+Python 3.12.
 
 ```text
 python -m venv .venv
-.venv\Scripts\activate          (Windows)
-source .venv/bin/activate       (macOS, Linux)
-pip install -r requirements.txt
-pip show mediapipe
-```
-
-Download the full Pose Landmarker model from the Models section of the [MediaPipe Pose Landmarker guide](https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker) and save it as `models/pose_landmarker_full.task`.
-
-Once everything runs, freeze the versions and install from the lock file on the presentation laptop:
-
-```text
-pip freeze > requirements.lock.txt
+.venv\Scripts\activate
 pip install -r requirements.lock.txt
 ```
 
-Do not install `opencv-python`. mediapipe already installs `opencv-contrib-python`, and two OpenCV packages clash.
+Download the full Pose Landmarker model from the [MediaPipe guide](https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker) and save it as `models/pose_landmarker_full.task`.
 
-The LSTM is trained in Google Colab with the TensorFlow that Colab provides. Do not run `pip install tensorflow` there.
+Do not install `opencv-python`. mediapipe already brings `opencv-contrib-python`.
+
+## Live demo
+
+```text
+python -m src.demo --source 0
+python -m src.demo --source 0 --privacy
+python -m src.demo --source path/to/video.mp4
+python -m src.demo --source 0 --benchmark
+```
+
+The rule and the AI run side by side. If the model file fails to load, the rule takes over.
 
 ## Data
 
-Datasets are not stored in git. Put them under `data/raw/` like this:
-
-```text
-data/raw/urfd/
-data/raw/gmdcsa24/
-data/raw/caucafall/
-```
+Datasets are not in git. Put them under `data/raw/urfd`, `data/raw/gmdcsa24` and `data/raw/caucafall`.
 
 | Dataset | Source | Role |
 | --- | --- | --- |
-| URFD | https://fenix.ur.edu.pl/mkepski/ds/uf.html | Training and tuning |
-| GMDCSA-24 | https://zenodo.org/records/12921216 | Training and tuning |
+| URFD | https://fenix.ur.edu.pl/mkepski/ds/uf.html | Training |
+| GMDCSA-24 | https://zenodo.org/records/12921216 | Training |
 | CAUCAFall | https://data.mendeley.com/datasets/7w7fccy7ky | Unseen test, used once |
+
+GMDCSA-24 has no fall times. The team marked them by hand in `data/annotations/gmdcsa24_fall_times.csv` with `tools/annotate_falls.py`.
+
+## Pipeline
+
+```text
+python scripts/01_labels.py            labels for all clips
+python scripts/02_extract_pose.py      pose keypoints per clip
+python scripts/03_build_windows.py     windows and features
+python scripts/04_cross_validate.py    grouped CV, thresholds, model choice
+python scripts/05_test_caucafall.py    single unseen test (already run)
+python scripts/06_cv_report.py         CV tables and figures
+python scripts/07_test_report.py       test figures
+python scripts/08_alert_latency.py     demo alert latency on videos
+```
+
+The LSTM runs in Google Colab with `notebooks/lstm_colab.ipynb`.
 
 ## Layout
 
 ```text
-CLAUDE.md               project brief and rules for Claude Code
-.claude/                settings, rules, subagents and skills for Claude Code
-config.yaml             every tunable number
-requirements.txt
-data/raw/               downloaded datasets (not in git)
-data/labels.csv         one row per clip
-data/keypoints/         cached pose per clip (not in git)
-data/features/          windows and sequences (not in git)
-src/                    labels, pose, windows, features, baseline, models, evaluate, demo
-scripts/                01 to 05, thin wrappers around src
-notebooks/              lstm_colab.ipynb
-models/                 best.joblib, rule.joblib, pose task file
-results/tables/         CSV results, the only source of slide numbers
-results/figures/        PNG charts
-logs/                   demo alerts and errors (not in git)
-docs/                   finish plan, rubric map, deployment options
-tools/check_style.py    flags em dashes and code comments
+config.yaml        every tunable number
+src/               labels, pose, windows, features, baseline, models, evaluate, report, demo
+scripts/           thin wrappers around src
+notebooks/         LSTM notebook for Colab
+models/            frozen Random Forest and rule
+results/           tables and figures
+docs/              plan, rubric map, deployment options, slide outline
+tools/             annotation tool, style check, data download
 ```
 
-## Reproduce
-
-```text
-python scripts/01_labels.py
-python scripts/02_extract_pose.py
-python scripts/03_build_windows.py
-python scripts/04_cross_validate.py
-python scripts/05_test_caucafall.py
-python -m src.demo --source 0
-```
-
-`05_test_caucafall.py` is run once, after every model is frozen.
-
-## Team rules
-
-1. Split by clip, never by frame or window.
-2. CAUCAFall is touched once and never influences a choice.
-3. Slide numbers come from `results/tables/` only.
-4. No comments in code and no em dashes anywhere. `python tools/check_style.py` must print `0 problem(s)` before a commit.
-5. Keep it simple. Ask the team before adding a dependency.
-
-## Using Claude Code in this repository
-
-Open the folder with Claude Code. `CLAUDE.md` and `.claude/` load on their own.
-
-| Ask for | What it does |
-| --- | --- |
-| `data-lead` subagent | Labels and pose extraction |
-| `features-baseline` subagent | Windows, features, rule baseline |
-| `modelling-lead` subagent | Models, cross validation, results |
-| `demo-builder` subagent | Live demo |
-| `integrity-reviewer` subagent | Read only check for leakage, test set isolation and style |
-| `presentation-coach` subagent | Drafts `docs/slides.md` against the evaluation form |
-| `/check` | Style check plus integrity review before a commit |
-| `/gate sat` | Progress against the end of day gate |
-
-Example: `Use the data-lead subagent to write src/labels.py for URFD first.`
-
-Personal settings go in `.claude/settings.local.json` and `CLAUDE.local.md`. Both are ignored by git.
+Run `python tools/check_style.py` before each commit. It must report 0 problems.
